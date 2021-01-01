@@ -1,0 +1,58 @@
+{
+  "name": "web",
+  "displayName": "Web Dev Extensions",
+  "version": "1.0.0",
+  "description": "Extensions to help you with web development.",
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "extension",
+    "pack",
+    "web"
+  ],
+  "homepage": "https://github.com/vspacks/web",
+  "bugs": {
+    "url": "https://github.com/vspacks/web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vspacks/web.git"
+  },
+  "license": "MIT",
+  "qna": "false",
+  "author": {
+    "name": "Visual Studio Packs Team"
+  },
+  "publisher": "packs",
+  "devDependencies": {
+    "prettier": "*",
+    "sort-package-json": "*"
+  },
+  "extensionPack": [
+    "akamud.vscode-caniuse",
+    "cmstead.jsrefactor",
+    "dbaeumer.vscode-eslint",
+    "kisstkondoros.vscode-codemetrics",
+    "maxvanderschee.web-accessibility",
+    "mike-co.import-sorter",
+    "mingteo.sort-selection-concentrically",
+    "mkaufman.htmlhint",
+    "mrmlnc.vscode-attrs-sorter",
+    "pranaygp.vscode-css-peek",
+    "ritwickdey.liveserver",
+    "sburg.vscode-javascript-booster",
+    "steoates.autoimport",
+    "stringham.move-ts",
+    "wallabyjs.quokka-vscode",
+    "wix.vscode-import-cost"
+  ],
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  }
+}
